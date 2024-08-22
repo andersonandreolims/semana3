@@ -1,0 +1,7 @@
+temperatura=float(input("Qual a temperatura em ºC? "))
+
+fahrenheit=(temperatura*9/5)+32
+kelvin=temperatura+273.15
+
+print("Temperatura em Fahrenheit:%2.2fº"%fahrenheit)
+print("Temperatura em Kelvin:%2.2fº "%kelvin)
