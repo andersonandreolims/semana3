@@ -1,0 +1,7 @@
+palavra=str(input("Digite uma palavra: ").upper().replace(' ', ''))
+
+
+if palavra==palavra[::-1]:
+    print("É palíndrome!")
+else:   
+    print("Não é palíndrome!")
