@@ -1,0 +1,11 @@
+soma=0
+contar=0
+while True:
+  nota=float(input("Digiete a nota!"))
+  if nota==-1:
+    break
+  soma=soma+nota
+  contar=contar+1
+  media=(soma/contar)
+
+print("A soma das notas digitadas é: ", soma, " e a média entre elas é igual a: ", media)
